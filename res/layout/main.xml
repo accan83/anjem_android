@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/p_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/b_main"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/db"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="80sp" />
+
+    <Button
+        android:id="@+id/btn_member"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/menu1"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_data"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="160dp"
+        android:layout_toRightOf="@+id/btn_member"
+        android:text="@string/menu2"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/btn_data"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@+id/btn_report"
+        android:text="@string/menu4"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_report"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_member"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/menu3"
+        android:textSize="30sp" />
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_db"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

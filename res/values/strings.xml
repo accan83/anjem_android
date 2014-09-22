@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Application of AnJem</string>
+    <string name="menu1">MEMBER</string>
+    <string name="menu2">DATA</string>
+    <string name="menu3">REPORT</string>
+    <string name="menu4">ABOUT</string>
+    <string name="t_member">::MEMBER::</string>
+    <string name="txt_member_name">Name</string>
+    <string name="txt_member_class">Class</string>
+    <string name="txt_member_address">Address</string>
+    <string name="txt_member_fee">Fee</string>
+    <string name="txt_member_program">Program</string>
+    <string name="edit_member_name">Type a name</string>
+    <string name="edit_member_class">Type the class</string>
+    <string name="edit_member_address">Type an address</string>
+    <string name="edit_member_fee">Rp 0,00</string>
+    <string name="spin_member_program">-Choose one-</string>
+    <string name="t_data">::DATA::</string>
+
+    <string-array name="ANJEM">
+        <item>Go to School</item>
+        <item>Back to Home</item>
+        <item>Go and Back</item>
+    </string-array>
+        <string name="db">SET DATABASE</string>
+
+</resources>
